@@ -21,7 +21,7 @@ img{
 h1, h2, button{
     font-family: 'Josefin Sans', sans-serif;
 }
-p, input{
+p, .msg{
      font-family: 'Inter', sans-serif;
 }
 
