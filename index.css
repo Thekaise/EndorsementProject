@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1924;
+    text-align: center;
+}
+
+img{
+    margin: 0 auto;
+    width: 20%;
+    
+}
+
+.container{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+}
+
+h1, h2, button{
+    font-family: 'Josefin Sans', sans-serif;
+}
+p, input{
+     font-family: 'Inter', sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 25px;
+}
+
+.msg{
+    background-color: #444059;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 15px 0 0 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+button, .test{
+    background-color: #28A9F1;
+    color: #04131C;
+    border: none;
+    padding: 15px 0;
+    border-radius: 8px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.divider{
+    color: white;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider::before{
+    content: '';
+    height: .1em;
+    background-color: white;
+    flex: 1;
+    margin: 0 .5em 0 4.6em;
+}
+
+.divider::after{
+    content: '';
+    height: .1em;
+    background-color: white;
+    flex: 1;
+    margin: 0 4.6em 0 .5em;
+}
+
+.endorsement{
+    background-color: #FFFFFF;
+    color: #1B1924;
+    font-size: 12px;
+    font-weight: regular;
+    padding: 15px 10px;
+    line-height: 1.5em;
+    text-align: left;
+    margin: 8px 0;
+}
+
