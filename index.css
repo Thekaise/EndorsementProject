@@ -15,7 +15,7 @@ img{
     margin: 50px auto;
     display: flex;
     flex-direction: column;
-    max-width: 420px;
+    max-width: 350px;
 }
 
 h1, h2, button{
